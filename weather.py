@@ -49,7 +49,7 @@ def processing_display(res):
     print(f'''{color.PURPLE}sunrise(showing current timezone):{color.END} {converting_time(res['sys']['sunrise'])}, {color.PURPLE}sunset(showing current timezone):{color.END} {converting_time(res['sys']['sunset'])}''')
 
 def main():
-    dhaka = '1185241'   #state id for calling api
+    dhaka = '1185241'   #city id for calling api
     narsingdi = '1185117'
     kl = '1733046'
     selangor = '1733037'
