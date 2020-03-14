@@ -39,7 +39,7 @@ def converting_time(pass_time):
     return datetime.fromtimestamp(pass_time)
 def processing_weather_information(id):
      # city_id for Dhaka
-    apikey = '1fd6e1c1fa25c51c0eeee678d325a516' # hiding my api
+    apikey = '1f' # hiding my api
     res=json.loads(call_weather_api(id, apikey))
     processing_display(res)
 
